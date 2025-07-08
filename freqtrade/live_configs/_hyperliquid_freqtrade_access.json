@@ -1,0 +1,14 @@
+{
+    "exchange": {
+        "name": "hyperliquid",
+        "walletAddress": "0xC111111111111111111111111111111111111111",
+        "privateKey": "0xaaaaaaaaaaaaaaaaaaaaaa1111111aa4aaaaaaaa0aa06aaaaaaaaaaaaaaaaaaa"
+    },
+    "api_server": {
+        "jwt_secret_key": "***************",
+        "ws_token": "***************",
+        "CORS_origins": ["http://11.77.230.120:9400"],
+        "username": "freqtrade_france",
+        "password": "123456789a"
+    }
+}
