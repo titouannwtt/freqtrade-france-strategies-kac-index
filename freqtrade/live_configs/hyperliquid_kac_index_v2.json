@@ -1,0 +1,38 @@
+{
+    "add_config_files": [
+        "_default_spot_usdc.json",
+        "_hyperliquid_freqtrade_access.json"
+    ],
+
+    "max_open_trades": -1,
+    "available_capital": 75,
+    "tradable_balance_ratio": 0.99,
+    "stake_amount": 15,
+
+    "trading_mode": "futures",
+    "margin_mode": "isolated",
+    "stake_currency": "USDC",
+
+    "bot_name": "kac_index_v2_hyperliquid_spot",
+    "strategy": "kac_index_v2",
+    "db_url": "sqlite:///database/kac_index_v2_hyperliquid_spot.sqlite",
+
+    "api_server": {
+        "listen_port": 9044
+    },
+
+    "pairlists": [
+        {
+            "method": "VolumePairList",
+            "number_assets": 30,
+            "sort_key": "quoteVolume",
+            "min_value": 0,
+            "refresh_period": 86400,
+            "lookback_days": 7
+        }
+    ],
+    
+    "internals": {
+        "process_throttle_secs": 60
+    }
+}
