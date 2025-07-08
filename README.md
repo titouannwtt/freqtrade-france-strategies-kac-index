@@ -1,0 +1,1 @@
+# freqtrade-france-strategies-kac-index
